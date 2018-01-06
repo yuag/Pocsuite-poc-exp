@@ -1,0 +1,19 @@
+xss---poc
+
+随便写写
+代码如下:
+
+<?php
+
+//XSS反射型漏洞
+
+//1.变量的直接输出    
+
+echo $_GET['XSS'];
+
+?>
+
+
+
+
+https://www.cnblogs.com/arsense/p/6360990.html
